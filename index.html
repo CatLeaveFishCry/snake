@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            background-color: none;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+        }
+
+        .ground {
+            background-image: url('./img/bg.jpg');
+            background-size: 100% 100%;
+        }
+
+        .head {
+            background-image: url('./img/earth.png');
+            background-size: cover;
+            box-shadow: 0px 0px 100px 50px pink;
+        }
+
+        .food {
+            background-image: url('./img/sun.png');
+            background-size: cover;
+        }
+
+        .body {
+            background-image: url('./img/xing.jpg');
+            background-size: cover;
+        }
+
+
+
+        .floor {
+            background-color: transparent;
+        }
+
+        .wall {
+            background-color: rgba(255, 255, 255, .2);
+        }
+
+        .btn-box {
+            text-align: center;
+        }
+
+        #startBtn {
+            background-color: #38f;
+            padding: 10px 20px;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="btn-box">
+        <button id="startBtn">开始按钮</button>
+    </div>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/initVal.js"></script>
+    <script src="./js/SquareFactory.js"></script>
+    <script src="./js/snake.js"></script>
+    <script src="./js/ground.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+
+</html>
